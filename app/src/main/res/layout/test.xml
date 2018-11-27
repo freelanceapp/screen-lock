@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+<!-- android:background="@drawable/nature"-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/focusEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/ll_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+
+            android:clickable="true"
+            android:scaleType="centerCrop" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageviewlayout"
+            android:layout_above="@+id/unlock"
+            android:orientation="vertical">
+
+            <DigitalClock
+
+                android:textSize="40.0sp"
+                android:textColor="@color/white"
+                android:id="@+id/digitalClock"
+                android:layout_marginTop="40dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true" />
+
+            <!--
+
+            <TextView
+                android:id="@+id/txt_systemtime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="60dp"
+                android:fontFamily="serif-monospace"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@android:color/white"
+                android:textSize="50dp" />
+       -->
+
+
+
+
+            <TextView
+                android:layout_below="@+id/digitalClock"
+                android:id="@+id/txt_dateandday"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@android:color/white"
+                android:textSize="18dp" />
+
+<TextView
+    android:layout_marginTop="@dimen/dp40"
+    android:id="@+id/heading_News"
+    android:layout_marginLeft="@dimen/dp20"
+    android:textColor="@color/white"
+    android:textSize="@dimen/sp14"
+    android:layout_below="@+id/txt_dateandday"
+    android:text="Khulasa News"
+    android:visibility="invisible"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+            <android.support.v7.widget.RecyclerView
+                 android:layout_below="@id/heading_News"
+                android:layout_marginTop="@dimen/dp1"
+                android:layout_marginLeft="@dimen/dp10"
+                android:layout_marginRight="@dimen/dp10"
+                android:id="@+id/news_recycler_view"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="@dimen/dp10"
+                android:layout_height="match_parent"/>
+
+        </RelativeLayout>
+
+
+        <me.mojodigi.lockscreen.UnlockBar
+            android:id="@+id/unlock"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            />
+    </RelativeLayout>
+    </FrameLayout>
+
+</RelativeLayout>
+

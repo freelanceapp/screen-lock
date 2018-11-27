@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_marginTop="@dimen/dp10"
+        card_view:cardCornerRadius="10dp"
+        card_view:cardElevation="5dp"
+        android:layout_height="wrap_content" android:layout_width="match_parent">
+
+        <RelativeLayout
+            android:background="#444343"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/newsIcon"
+                android:layout_alignParentLeft="true"
+                android:padding="@dimen/dp10"
+                android:src="@mipmap/app_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/newsTitle"
+                android:ellipsize="marquee"
+                android:text="this is a great news heading"
+                android:layout_centerInParent="true"
+                android:layout_toRightOf="@+id/newsIcon"
+                android:singleLine="true"
+                android:textSize="@dimen/sp14"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:textColor="@color/white"
+                android:padding="@dimen/dp10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

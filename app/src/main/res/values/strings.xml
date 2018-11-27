@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Lock Screen</string>
+    <string name="unlock_instructions">Slide to unlock</string>
+    <string name="unlock_locked">Locked</string>
+    <string name="unlock_unlocked">Unlocked</string>
+    <string name="unlock_thumb">Move this thumb</string>
+     <string name="permission_accessibility_setting_description">"Turn on and it locks all soft key including HOME, RECENTS, BACK, MENU buttons.
+
+You may be warned about potential privacy risk, that's just a regular informative warning for any accessibility service. We promise NEVER EVER collecting your personal information in this accessibility service."</string>
+
+
+    <string name="enablelocktxt">Enable Screen Lock</string>
+    <string name="change_pin">Set your pin</string>
+    <string name="change_wall">Change wallpaper</string>
+    <string name="gallery">Gallery</string>
+    <string name="moreapps">Our apps</string>
+    <string name="music">Play Music</string>
+    <string name="about">About</string>
+
+    <string name="setwp">Set wallpaper</string>
+
+    <string name="enter_pin">Enter pin</string>
+    <string name="wallpaper_success">Wallpaper set successfully</string>
+    <string name="wrongpin">Incorrect Pin !</string>
+    <string name="writepin">Enter pin</string>
+    <string name="setpin">Please set pin first</string>
+    <string name="enterpin">Enter 4 digit pin</string>
+    <string name="cannotload">can\'t load the site</string>
+
+</resources>
