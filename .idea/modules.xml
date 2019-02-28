@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ScreenLockApp.iml" filepath="$PROJECT_DIR$/ScreenLockApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/screen-lock_new.iml" filepath="$PROJECT_DIR$/screen-lock_new.iml" />
     </modules>
   </component>
 </project>
