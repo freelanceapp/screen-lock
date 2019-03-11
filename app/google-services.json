@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "22148962382",
+    "firebase_url": "https://lock-screen-b46ad.firebaseio.com",
+    "project_id": "lock-screen-b46ad",
+    "storage_bucket": "lock-screen-b46ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22148962382:android:37b117d6c603d3b3",
+        "android_client_info": {
+          "package_name": "com.mojodigi.screenlock"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "22148962382-a7bjuu4brvoo3r95vlu3cb3obj3c12b2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mojodigi.screenlock",
+            "certificate_hash": "b3a6fb26021ca0754e02da747f5820c21e4b88f9"
+          }
+        },
+        {
+          "client_id": "22148962382-tsqu6rdjocvsavccl06gd59gscuohnb5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKE8NB-ugxzDMHKUIFJ0qBrhNFw977O-k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "22148962382-tsqu6rdjocvsavccl06gd59gscuohnb5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
