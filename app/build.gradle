@@ -77,7 +77,12 @@ dependencies {
     implementation 'com.google.firebase:firebase-core:16.0.7'
     implementation 'com.google.firebase:firebase-messaging:17.3.4'
 
+    //Responsive Ui dependency
     implementation 'com.intuit.sdp:sdp-android:1.0.6'
     implementation 'com.intuit.ssp:ssp-android:1.0.6'
+
+    //pattern lock dependency
+    implementation 'com.bcgdv.asia.lib:connectpattern:0.3'
+
 }
 apply plugin: 'com.google.gms.google-services'
