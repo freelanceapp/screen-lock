@@ -1,7 +1,9 @@
 apply plugin: 'com.android.application'
 
 android {
+
     compileSdkVersion 28
+
     defaultConfig {
         applicationId "com.mojodigi.screenlock"
         minSdkVersion 16
@@ -45,6 +47,7 @@ android {
 }
 
 dependencies {
+
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     //noinspection GradleCompatible
     implementation 'com.android.support:appcompat-v7:28.0.0'
@@ -83,6 +86,14 @@ dependencies {
 
     //pattern lock dependency
     implementation 'com.bcgdv.asia.lib:connectpattern:0.3'
+    implementation 'com.andrognito.patternlockview:patternlockview:1.0.0'
+
+
+
+// Appmetrica SDK dependency .
+    implementation 'com.yandex.android:mobmetricalib:3.5.3'
+// Optionally. Play Install Referrer library.
+    implementation 'com.android.installreferrer:installreferrer:1.0'
 
 }
 apply plugin: 'com.google.gms.google-services'
