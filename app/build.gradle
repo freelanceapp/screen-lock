@@ -1,24 +1,19 @@
 apply plugin: 'com.android.application'
 
 android {
-
     compileSdkVersion 28
-
     defaultConfig {
         applicationId "com.mojodigi.screenlock"
         minSdkVersion 16
         targetSdkVersion 28
-        versionCode 15
-        versionName "2.4"
+        versionCode 20
+        versionName "2.9"
         multiDexEnabled true
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         packagingOptions {
-
             exclude 'META-INF/LICENSE'
             exclude 'META-INF/LICENSE-FIREBASE.txt'
             exclude 'META-INF/NOTICE'
-
-
 
         }
         lintOptions {
@@ -75,7 +70,7 @@ dependencies {
 
     implementation 'com.android.support:multidex:1.0.3'
     // Required Dependency by Audience Network SDK
-    implementation 'com.facebook.android:audience-network-sdk:5.+'
+    implementation 'com.facebook.android:audience-network-sdk:5.4.1'
     //added alreay
 
 
@@ -89,8 +84,6 @@ dependencies {
     //pattern lock dependency
     implementation 'com.bcgdv.asia.lib:connectpattern:0.3'
     implementation 'com.andrognito.patternlockview:patternlockview:1.0.0'
-
-
 
 // Appmetrica SDK dependency .
     implementation 'com.yandex.android:mobmetricalib:3.5.3'
